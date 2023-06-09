@@ -1,0 +1,15 @@
+.wrapper {
+  padding: 5px 20px;
+  border-radius: 22px;
+
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    font-size: 14px;
+    line-height: 20px;
+  }
+}

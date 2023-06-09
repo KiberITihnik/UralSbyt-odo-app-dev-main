@@ -1,0 +1,79 @@
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  box-sizing: border-box;
+  padding: 10px 20px;
+
+  text-align: center;
+
+  border-radius: 40px;
+  border: 1px solid var(--secondary);
+  background: none;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  color: var(--secondary);
+  text-transform: none;
+
+  transition: all 0.2s linear;
+}
+
+.button:hover {
+  background: var(--secondary);
+  color: white;
+}
+
+.button:active {
+  border: 1px solid var(--button-focused);
+  background: var(--button-focused);
+  color: white;
+}
+
+.button:disabled {
+  border: 1px solid var(--gray-light);
+  background: var(--gray-light);
+  color: var(--gray-lighter);
+  pointer-events: none;
+}
+
+.big {
+  padding: 18px 40px;
+  font-size: 22px;
+  line-height: 36px;
+  font-weight: 500;
+}
+
+.fill {
+  background: var(--secondary);
+  color: var(--white);
+}
+
+.fill:hover {
+  background: var(--button-hovered);
+  border: 1px solid var(--button-hovered);
+  /*color: var(--white);*/
+}
+
+.fill:active {
+  background: var(--button-focused);
+  border: 1px solid var(--button-focused);
+  /*color: var(--white);*/
+}
+
+.invert {
+  background-color: transparent;
+  border: 1px solid var(--white);
+  color: var(--white);
+}
+
+.invert:hover,
+.invert:active {
+  background-color: transparent;
+  border: 1px solid var(--secondary);
+  /*color: var(--white);*/
+}

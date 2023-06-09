@@ -1,0 +1,17 @@
+.videoResponsive {
+  overflow: hidden;
+
+  padding: 40px 20px;
+}
+
+.videoResponsive iframe {
+  border: transparent;
+
+  /*height: 100%;*/
+  /*width: 100%;*/
+}
+
+.rotate {
+  padding-left: 20px;
+  transform: rotate(90deg);
+}

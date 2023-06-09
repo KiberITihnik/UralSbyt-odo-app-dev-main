@@ -1,0 +1,41 @@
+.wrapper {
+  padding: 40px;
+
+  /*height: 100%;*/
+
+  border-radius: 60px;
+  background: var(--white);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  transition: all 0.3s linear;
+}
+
+.wrapper:active,
+.wrapper:hover {
+  color: var(--white);
+  background: var(--secondary);
+}
+
+.title {
+  margin: 0;
+
+  width: 80%;
+
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.description {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.footer {
+  align-self: flex-end;
+}

@@ -1,0 +1,20 @@
+.contact {
+  /*font-weight: 500;*/
+  /*font-size: 16px;*/
+  /*line-height: 28px;*/
+  cursor: pointer;
+
+  color: var(--primary);
+  text-transform: none;
+
+  border: none;
+  background: none;
+
+  text-align: start;
+
+  transition: all 0.2s linear;
+}
+
+.contact:hover {
+  color: var(--secondary);
+}

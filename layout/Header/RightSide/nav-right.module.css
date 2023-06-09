@@ -1,0 +1,80 @@
+.navItem {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+  cursor: pointer;
+
+  transition: 0.2s all;
+}
+
+.navItemActive,
+.navItem:hover {
+  color: var(--secondary);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /*font-weight: 500;*/
+  /*font-size: 18px;*/
+  /*line-height: 28px;*/
+}
+
+.phones {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  margin-right: 32px;
+
+  /*font-size: 14px;*/
+  /*line-height: 20;*/
+}
+
+.phones li {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: baseline;
+  padding: 0;
+}
+
+.contactPhone {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+.contactCity {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.tabletRightMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 1px solid var(--secondary);
+}
+
+@media screen and (max-width: 1280px) {
+  .contactPhone {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .contactCity {
+    font-weight: 200;
+    font-size: 10px;
+    line-height: 16px;
+  }
+}

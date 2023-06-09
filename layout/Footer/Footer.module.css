@@ -1,0 +1,187 @@
+.footer {
+  /*position: relative;*/
+  display: grid;
+
+  /*grid-column-gap: min(40px);*/
+  /*grid-template-columns: 1.5fr 1fr 1fr;*/
+  /*grid-template-rows: auto 1fr auto;*/
+  /*grid-template-areas:*/
+  /*  "subscribe menu         links"*/
+  /*  "logo      notification .";*/
+  grid-gap: 2rem;
+  grid-template-columns: 1.5fr 1fr 1fr;
+  /*grid-template-rows: auto 1fr auto;*/
+  grid-template-areas:
+    "subscribe  menuleft         menuright"
+    "subscribe       social         ."
+    "mail       telChel         telMsk"
+    "logo      notification .";
+
+  /*padding: 40px 260px;*/
+  border-top: 2px solid #f6f6f6;
+}
+
+.social {
+  grid-area: social;
+}
+
+.telChel {
+  grid-area: telChel;
+}
+
+.telMsk {
+  grid-area: telMsk;
+}
+
+.mail {
+  grid-area: mail;
+}
+
+.subscribe {
+  grid-area: subscribe;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 40px;
+
+  margin-top: 0;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--gray);
+
+  /*max-width: 480px;*/
+}
+
+.subscribe input {
+  margin: 40px 0;
+  max-width: 80%;
+}
+
+.subscribe .form {
+  padding: 20px 0;
+  color: black;
+}
+.menuLeft,
+.menuRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 20px;
+
+  padding-top: 20px;
+  margin: 0;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 32px;
+  color: var(--gray);
+}
+
+.menuLeft {
+  grid-area: menuleft;
+}
+
+/*.menuLeft ul,*/
+/*.menuRight ul {*/
+/*  margin-top: 0;*/
+/*  padding: 0;*/
+/*}*/
+
+.menuRight {
+  grid-area: menuright;
+}
+
+.logo {
+  grid-area: logo;
+
+  /*display: flex;*/
+  /*justify-content: space-between;*/
+  /*align-items: center;*/
+}
+
+.notification {
+  grid-area: notification;
+}
+
+.logo,
+.notification {
+  margin-top: 60px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  padding: 20px 0;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--gray);
+}
+
+.line {
+  position: absolute;
+  bottom: 90px;
+  border-top: 2px solid #f6f6f6;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 1280px) {
+  .footer {
+    grid-gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    /*grid-template-rows: auto 1fr auto;*/
+    grid-template-areas:
+      "subscribe  subscribe"
+      "menuleft   menuright"
+      "mail       social"
+      "telChel    telMsk"
+      "logo      notification";
+  }
+
+  .subscribe input {
+    margin: 35px 0;
+    max-width: 100%;
+  }
+
+  .logo,
+  .notification {
+    margin-top: 10px;
+    padding: 10px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    grid-gap: 1.5rem;
+    grid-template-columns: 1fr 1fr;
+
+    grid-template-areas:
+      "subscribe  subscribe"
+      "menuleft   menuleft"
+      "menuright   menuright"
+      "mail       social"
+      "telChel    telMsk"
+      "logo      logo"
+      "notification      notification";
+  }
+
+  .menuLeft,
+  .menuRight {
+    gap: 10px;
+
+    padding-top: 0;
+    margin: 0;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--gray);
+  }
+
+  .logo,
+  .notification {
+    margin-top: 5px;
+    padding: 5px 0;
+  }
+}

@@ -1,0 +1,95 @@
+/*normal*/
+@font-face {
+    font-family: 'Lab Grotesque';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lab Grotesque'), url('../assets/fonts/LabGrotesqueBold.ttf') format('ttf');
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    font-weight: 100;
+    font-style: italic;
+    src: local('Lab Grotesque Thin Italic'), local('LabGrotesque-ThinItalic'),
+        url('../assets/fonts/LabGrotesqueThinItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: local('Lab Grotesque Medium Italic'), local('LabGrotesque-MediumItalic'),
+        url('../assets/fonts/LabGrotesqueMediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: local('Lab Grotesque Light Italic'), local('LabGrotesque-LightItalic'),
+        url('../assets/fonts/LabGrotesqueLightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: local('Lab Grotesque Medium'), local('LabGrotesque-Medium'),
+        url('../assets/fonts/LabGrotesqueMedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: local('Lab Grotesque Bold'), local('LabGrotesque-Bold'),
+        url('../assets/fonts/LabGrotesqueBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: local('Lab Grotesque Thin'), local('LabGrotesque-Thin'),
+        url('../assets/fonts/LabGrotesqueThin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: local('Lab Grotesque Italic'), local('LabGrotesque-Italic'),
+        url('../assets/fonts/LabGrotesqueItalic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: local('Lab Grotesque Black Italic'), local('LabGrotesque-BlackItalic'),
+        url('../assets/fonts/LabGrotesqueBlackItalic.ttf') format('truetype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: local('Lab Grotesque Bold Italic'), local('LabGrotesque-BoldItalic'),
+        url('../assets/fonts/LabGrotesqueBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: local('Lab Grotesque Light'), local('LabGrotesque-Light'),
+        url('../assets/fonts/LabGrotesqueLight.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lab Grotesque';
+    src: local('Lab Grotesque Black'), local('LabGrotesque-Black'),
+        url('../assets/fonts/LabGrotesqueBlack.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}

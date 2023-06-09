@@ -1,0 +1,114 @@
+.card {
+  height: 100%;
+
+  width: auto;
+  position: relative;
+  background: transparent;
+  z-index: 0;
+
+  cursor: pointer;
+
+  border-radius: 60px;
+}
+
+.picture {
+  position: absolute;
+  display: block;
+
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -2;
+
+  border-radius: 60px;
+  overflow: hidden;
+
+  object-fit: cover;
+}
+
+/*.picture img {*/
+/*  object-fit: cover;*/
+/*}*/
+
+.title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.person {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.header {
+  position: absolute;
+  top: 65%;
+  left: 5%;
+  padding: 0 10px;
+}
+
+.body {
+  position: relative;
+
+  height: 100%;
+  width: 100%;
+  color: var(--white);
+
+  padding: 80% 10% 100%;
+  border-radius: 60px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  transition: all 0.3s linear;
+}
+
+.body::before {
+  display: block;
+  content: "";
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+
+  z-index: -1;
+  border-radius: 60px;
+
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.footer {
+  position: absolute;
+  /*margin-top: 16px;*/
+  bottom: 3%;
+  left: 3%;
+}
+
+.body:active,
+.body:hover {
+  background: var(--orange);
+  color: var(--white);
+}
+
+@media screen and (max-width: 980px) {
+  .body {
+    padding: 80% 5% 40%;
+    border-radius: 40px;
+  }
+  .title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .person {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 18px;
+  }
+}

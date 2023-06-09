@@ -1,0 +1,38 @@
+.navItem {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  cursor: pointer;
+
+  transition: 0.2s all;
+  text-align: center;
+}
+
+.navItemActive,
+.navItem:hover {
+  color: var(--secondary);
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+  gap: 0 1em;
+}
+
+@media screen and (max-width: 1550px) {
+  .nav {
+    max-width: 280px;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .navItem {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .nav {
+    gap: 0 3em;
+  }
+}

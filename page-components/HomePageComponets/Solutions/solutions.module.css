@@ -1,0 +1,80 @@
+.wrapper {
+  /*position: relative;*/
+  /*padding: 120px 315px 190px 315px;*/
+  /*margin-top: -100px;*/
+  /*border-radius: 100px 100px 0 0;*/
+
+  /*background: black;*/
+}
+
+.title,
+.subtitle {
+  color: var(--white);
+  margin-bottom: 42px;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 12px 8px;
+
+  width: 80%;
+}
+
+.menuItem {
+  padding: 10px 30px;
+}
+
+.menuItemActive {
+  border: 1px solid var(--secondary);
+}
+
+.cards {
+  margin-top: 3em;
+  margin-bottom: 3rem;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.big {
+  flex: 1 calc((100% / 3) * 2 - 5px);
+}
+
+.ordinary {
+  flex-basis: calc((100% / 3) - 10px);
+  background: orange;
+}
+
+.end {
+  flex-basis: calc((100% / 3) - 10px);
+  height: 100%;
+  /*background: wheat;*/
+}
+
+.btnAllCases {
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1100px) {
+  .cards {
+    flex-wrap: nowrap;
+  }
+  .cards picture {
+    flex-basis: 50%;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .cards {
+    flex-wrap: wrap;
+  }
+
+  .cards picture {
+    flex-basis: 100%;
+  }
+}

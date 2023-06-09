@@ -1,0 +1,17 @@
+export { Badges } from '../Badges/badges';
+export { Block } from '../Block/block';
+export { default as Brand } from '../Brand/brand';
+export { default as Button } from '../Button/button';
+export { default as Card } from '../Card/card';
+export { default as FinallyCard } from '../Card/final-card';
+export { default as ReviewCard } from '../Card/review-card';
+export { default as VideoCard } from '../Card/video-card';
+export { default as Contact } from '../Contact/contact';
+export { default as Field } from '../Field/field';
+export { default as FooterContact } from '../FooterContact/footer-contact';
+export { default as Input } from '../Input/input';
+export { Modal } from '../Modal/modal';
+export { default as ModalRecordConsultation } from '../ModalRecordConsultation/modal-record-consultation';
+export { default as Social } from '../Social/social';
+export { default as Typo } from '../Typography/typo';
+export { default as YoutubeEmbed } from '../YouTubePlayer/youtube-embed';

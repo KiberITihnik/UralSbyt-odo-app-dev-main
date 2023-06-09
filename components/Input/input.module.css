@@ -1,0 +1,22 @@
+/*.input {*/
+/*  font-weight: 200;*/
+/*  font-size: 18px;*/
+/*  line-height: 40px;*/
+/*  color: var(--gray);*/
+
+/*  width: 100%;*/
+/*  box-sizing: border-box;*/
+/*  padding: 20px 16px;*/
+/*  display: inline-block;*/
+/*  border-radius: 8px;*/
+/*  border: 1px solid var(--gray-light);*/
+/*}*/
+
+/*@media screen and (max-width: 1280px) {*/
+/*  .input {*/
+/*    font-size: 16px;*/
+/*    !*line-height: 32px;*!*/
+/*    padding: 12px 8px;*/
+/*    !*border-radius: 6px;*!*/
+/*  }*/
+/*}*/

@@ -1,0 +1,71 @@
+@import "normalize.css";
+@import "fonts.css";
+
+:root {
+  accent-color: var(--secondary);
+  --primary: #232120;
+  --secondary: #0ea39c;
+  --secondary-lite: #87d1ce;
+
+  --gray: #919090;
+  --gray-light: #c2c9d1;
+  --gray-lighter: #f6f6f6;
+  --white: #fff;
+  --orange: #ff9800;
+  --light-green: #9ccc65;
+  --lighten-green: #87d1ce;
+  --purple: #ce93d8;
+  --blue: #4fc3f7;
+  --red: #ff7043;
+  --text-selected: #d7eeff;
+  --background-top-news: #0ca39c;
+  --background-preview-news-picture: #a2e4e2;
+
+  --maxWidth: 1920px;
+  --minWidth: 320px;
+
+  --button-hovered: #4abab5;
+  --button-focused: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.12),
+      rgba(255, 255, 255, 0.12)
+    ),
+    #0ea39c;
+
+  --break-point-desktop: 1224px;
+  --break-point-pad: 768px;
+  --break-point-mobile: 360px;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  /*font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,*/
+  /*  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;*/
+
+  font-family: "Lab Grotesque", sans-serif;
+}
+
+figure {
+  margin: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+mark {
+  background-color: var(--text-selected);
+}

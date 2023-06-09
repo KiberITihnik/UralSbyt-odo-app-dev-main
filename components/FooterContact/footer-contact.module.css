@@ -1,0 +1,32 @@
+.link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 14px;
+
+  color: var(--primary);
+}
+
+.link span {
+  font-size: 14px;
+}
+
+.link a {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .link a {
+    font-size: 24px;
+    line-height: 36px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .link a {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
